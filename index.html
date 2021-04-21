@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<div id="heading" class="outter">
+
+</div>
+<div id="form-div" class="div-form">
+    <form name="client_details" class="form-css" method="POST" action="" onsubmit="return validateForm()">
+        <p class="p-class">EMAIL:</p>
+        <input type="text" name="email" value="">
+        <span class="error"><p id="email_error"></p></span>
+        
+        <p class="p-class">PHONE NO:</p>
+        <input type="number" name="ph_no" value="">
+        <span class="error"><p id="ph_no_error"></p></span>
+
+        <p class="p-class">Query:</p>
+        <input type="text" name="query" value="">
+        <span class="error"><p id="query_error"></p></span>
+        <input type="submit" name="submit" value="submit">
+      
+    </form>
+</div>
+</body>
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="index.test.js"></script>
+</html>

@@ -1,0 +1,74 @@
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1.3344; 
+    
+}
+
+.img {
+     width: 100%;
+     height: auto;
+    vertical-align: middle;
+      
+  }
+
+.default{
+    cursor: pointer;
+}
+
+.individual-css{
+    width: 650px;
+    margin: 0 10px 0 40px;
+}
+
+
+.heading-css{
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    background-color: #f1f1f1;
+    margin: 0;
+  }
+
+.footer-css{
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 0;
+  }
+
+  .title-text {
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+  }
+
+  .title-textSmall{
+    font-size: 1.00rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left
+  }
+
+  .div-form{
+    border-radius: 5px;
+    background-color: #F2F2FA;
+    padding: 20px;
+    
+  }
+
+  .p-class{
+    display:inline;
+  }
+  
